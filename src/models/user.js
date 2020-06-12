@@ -24,7 +24,6 @@ const userSchema = new mongoose.Schema({
     },
     age:{
         type:Number,
-        required:true,
         default:0,
         validate(value){
             if(value<0){
